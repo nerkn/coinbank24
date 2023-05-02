@@ -1,12 +1,7 @@
 #! /bin/sh
+yarn install 
 
-ls -l 
-
-su node
-pwd
-
-whoami
-
+yarn run dev
 
 while true; do sleep 1000; done
 
